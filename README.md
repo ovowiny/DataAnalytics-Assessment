@@ -1,6 +1,6 @@
 # DataAnalytics-Assessment
 
-### Assessment_Q1 - Active User Summary
+### Assessment_Q1 - High-Value Customers with Multiple Products
 Identify users who have engaged with both savings and investment plans, and show how much they've deposited.
 
 My Approach:
@@ -14,7 +14,7 @@ Challenge & Fix:
 I noticed early issues with inflated counts due to overlapping joins. 
 To fix this, I carefully use the joins using both owner_id and plan_id, ensuring accurate aggregation per user and eliminating noise from unrelated rows.
 
-### Assessment_Q2 - Customer Transaction Frequency Category
+### Assessment_Q2 - . Transaction Frequency Analysis
 Categorize users based on how often they transact each month and tally how many fall into each group.
 
 My Approach:
@@ -30,7 +30,7 @@ Notes:
 
 
 
-### Assessment_Q3 -  Inactivity Alert
+### Assessment_Q3 -  Account Inactivity Alert
 Help the ops team flag accounts that haven’t had any deposits in over a year.
 
 My Approach:
@@ -45,7 +45,7 @@ My Approach:
 * inactivity_days: Number of days since the last transaction
 
 
-### Assessment_Q4 -  Customer Lifetime Value (CLV)
+### Assessment_Q4 -  Customer Lifetime Value (CLV) Estimation
 Estimate the lifetime value of each customer using a simplified profit model.
 
 My Approach:
