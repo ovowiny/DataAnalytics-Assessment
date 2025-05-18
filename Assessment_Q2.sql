@@ -1,5 +1,4 @@
-SELECT
-    frequency_category,                           -- "High", "Medium", or "Low" frequency group
+SELECT frequency_category,                           -- "High", "Medium", or "Low" frequency group
     COUNT(distinct user_id) AS customer_count,             -- Number of users in each category
     ROUND(AVG(monthly_txn_count), 2) AS avg_transactions_per_month  -- Avg monthly transactions per user
 FROM (
